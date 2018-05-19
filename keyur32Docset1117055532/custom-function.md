@@ -16,6 +16,16 @@ function ADD42(a, b) {
 > [!div class="nextstepaction"]
 > [Try it out!](http://dev.office.com)
 
+
+## Learning Path
+1. [Join the developer program to get Office 365]()
+2. [Learn about Excel add-ins]()
+3. [Read the Excel custom functions overview]()
+4. [Watch the 2018 Ignite video by Michael Saunders]()
+
+
+## Partners
+
 # [TypeScript](#tab/ts)
 
 Content for Windows...
