@@ -1,2 +1,5 @@
-# [Index](index.md)
+# [Generate an Excel file](create-excel.md)
+# [Read an Excel file](read-excel.md)
 # [Create your own functions](custom-function.md)
+# [Vizualize your data](data-viz.md)
+# [Customize the Excel UI](excel-ui.md)
