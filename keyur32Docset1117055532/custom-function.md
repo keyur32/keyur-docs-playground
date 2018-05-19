@@ -18,24 +18,69 @@ function ADD42(a, b) {
 
 
 ## Learning Path
-1. [Join the developer program to get Office 365]()
-2. [Learn about Excel add-ins]()
-3. [Read the Excel custom functions overview]()
-4. [Watch the 2018 Ignite video by Michael Saunders]()
+1. [Join the developer program to get Office 365](https://aka.ms/o365devprogram)
+2. [Learn about Excel add-ins](https://docs.microsoft.com/en-us/office/dev/add-ins/excel/custom-functions-overview)
+3. [Try out custom function calls in ScriptLab](https://appsource.microsoft.com/en-us/product/office/WA104380862?tab=Overview)
+4. [Watch the 2018 Build video by Michael Saunders](https://channel9.msdn.com/events/Build/2018/BRK2419?term=excel%20)
+5. [Learn about how you can deploy your add-in to your users](https://docs.microsoft.com/en-us/office/dev/add-ins/publish/publish)
 
 
 ## Partners
 
 # [TypeScript](#tab/ts)
 
-Content for Windows...
+Here's a simple function that you can call directly from Excel.
+
+```typescript
+function ADD42(a, b) {
+    return a + b + 42;
+}
+```
+
+> [!div class="nextstepaction"]
+> [Try it out!](http://dev.office.com)
+
+
+## Learning Path
+1. [Join the developer program to get Office 365](https://aka.ms/o365devprogram)
+2. [Learn about Excel add-ins](https://docs.microsoft.com/en-us/office/dev/add-ins/excel/custom-functions-overview)
+3. [Try out custom function calls in ScriptLab](https://appsource.microsoft.com/en-us/product/office/WA104380862?tab=Overview)
+4. [Watch the 2018 Build video by Michael Saunders](https://channel9.msdn.com/events/Build/2018/BRK2419?term=excel%20)
+5. [Learn about how you can deploy your add-in to your users](https://docs.microsoft.com/en-us/office/dev/add-ins/publish/publish)
+
 
 # [C#](#tab/csharp)
 
-Content for Linux...
+There are a few options you can use to create custom functions in Excel.
+1. Create an Automation Add-in. This leverages windows COM.
+
+```csharp
+ public double Sum42(double a, double b)
+ {
+      return a + b + 42; 
+ }
+```
+
 
 # [VBA](#tab/vba)
 
 Content for Windows...
+
+# [C](#tab/c)
+
+
+You can build custom functions in C and C++ by calling the Excel Native APIs.
+
+```c++
+double ADD42(LPXLOPER12 a, LPXLOPER12 b)
+{   
+    return a.val + b.val + 42;
+}
+```
+
+> [!div class="nextstepaction"]
+> [See XLL SDK documentation](https://msdn.microsoft.com/en-us/library/office/bb687883.aspx)
+
+
 
 ---
