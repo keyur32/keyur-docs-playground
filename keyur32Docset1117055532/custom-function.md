@@ -13,7 +13,7 @@ Pick a language below to see how you can make custom functions in Excel.
 
 You can make a custom function in an Excel Add-in using the Office Javascript API.  To use custom functions, you're users will need Office 365 or Office Online.
 
-
+## Example 
 Here's a simple function that you can call directly from Excel.
 
 ```javascript
@@ -27,14 +27,13 @@ function ADD42(a, b) {
 
 
 ## Learning Path
+
 1. [Join the developer program to get Office 365](https://aka.ms/o365devprogram)
 2. [Learn about Excel add-ins](https://docs.microsoft.com/en-us/office/dev/add-ins/excel/custom-functions-overview)
 3. [Try out custom function calls in ScriptLab](https://appsource.microsoft.com/en-us/product/office/WA104380862?tab=Overview)
 4. [Watch the 2018 Build video by Michael Saunders](https://channel9.msdn.com/events/Build/2018/BRK2419?term=excel%20)
 5. [Learn about how you can deploy your add-in to your users](https://docs.microsoft.com/en-us/office/dev/add-ins/publish/publish)
 
-
-## Partners
 
 # [TypeScript](#tab/ts)
 
