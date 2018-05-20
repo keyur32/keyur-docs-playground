@@ -90,13 +90,17 @@ Here is the a snippet in VBA.
 
 ```
 
-#Learn more
-There are plenty of [examples](http://www.cpearson.com/excel/writingfunctionsinvba.aspx) that you can find around Custom Functions (tip: search for "User Defined Functions in VBA"). 
+## Learn more
+
+> [!div class="nextstepaction"]
+> [See this tutorial](https://support.office.com/en-us/article/Create-custom-functions-in-Excel-2F06C10B-3622-40D6-A1B2-B6748AE8231F)
+
+To learn more, there are plenty of [examples](https://support.office.com/en-us/article/Create-custom-functions-in-Excel-2F06C10B-3622-40D6-A1B2-B6748AE8231F) on the internet that you can find around Custom Functions (tip: search for "User Defined Functions in VBA").
 
 # [C](#tab/c)
 
 
-You can build custom functions in C and C++ by calling the Excel Native APIs.
+You can build custom functions in C and C++ by calling the Excel Native APIs. The Native API offers the best performance for your custom functions and add-ins for Excel on Windows.
 
 ```c++
 double ADD42(LPXLOPER12 a, LPXLOPER12 b)
@@ -104,7 +108,7 @@ double ADD42(LPXLOPER12 a, LPXLOPER12 b)
     return a.val + b.val + 42;
 }
 ```
-
+## Learn More
 > [!div class="nextstepaction"]
 > [See XLL SDK documentation](https://msdn.microsoft.com/en-us/library/office/bb687883.aspx)
 
