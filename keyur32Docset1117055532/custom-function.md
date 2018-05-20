@@ -4,7 +4,7 @@ Custom functions (similar to user-defined functions, or UDFs), enable developers
 
 The following illustration shows you how an end user would insert a custom function into a cell. The function that adds 42 to a pair of numbers.
 
-<img alt="custom functions" src="../images/custom-function.gif" width="579" height="383" />
+<img alt="custom functions" src="https://github.com/OfficeDev/office-js-docs-pr/raw/master/docs/images/custom-function.gif" width="579" height="383" />
 
 
 Pick a language below to see how you can make custom functions in Excel.
@@ -63,11 +63,11 @@ function ADD42(a, b) {
 While there isn't direct support for C# user defefined functions. are a few options you can use to create custom functions in Excel, and will work for users of Office for Windows on 2007+.
 
 
-1. Create an [Automation Add-in](https://support.microsoft.com/en-us/help/291392/excel-com-add-ins-and-automation-add-ins). Excel 'Automation add-ins' are essential COM Add-ins that also add Excel custom function capabilities. 
+1. Create an [Automation Add-in](https://support.microsoft.com/en-us/help/291392/excel-com-add-ins-and-automation-add-ins). Excel 'Automation add-ins' are essentially COM Add-ins that also add Excel custom function capabilities. 
 2. Create an XLL add-in and wrap that in a .NET com DLL.  Or leverage, an open source library such as [ExcelDNA.net](https://excel-dna.net/) that abstracts much of this for you. 
 
 ```csharp
- public double Sum42(double a, double b)
+ public double ADD42(double a, double b)
  {
       return a + b + 42; 
  }
@@ -76,7 +76,22 @@ While there isn't direct support for C# user defefined functions. are a few opti
 
 # [VBA](#tab/vba)
 
-Content for Windows...
+It's easy to create user defined functions using Visual Basic for Applications.  
+
+Here is the a snippet in VBA.
+
+```vb
+
+    Public Function ADD42(a As Double, b As Double)
+
+       ADD42 = a + b + 42    
+
+    End Function
+
+```
+
+#Learn more
+There are plenty of [examples](http://www.cpearson.com/excel/writingfunctionsinvba.aspx) that you can find around Custom Functions (tip: search for "User Defined Functions in VBA"). 
 
 # [C](#tab/c)
 
