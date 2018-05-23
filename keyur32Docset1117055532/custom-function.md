@@ -93,6 +93,9 @@ Here is the a snippet in VBA.
     End Function
 
 ```
+# [Python](#tab/python)
+TBD - add a note about AzureML functions that can be created in Python (Keyur to follow up wiht Michael Saunders on relevant docs to place here)
+
 
 ### Learn more
 
