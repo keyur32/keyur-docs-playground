@@ -39,9 +39,9 @@ You can use the Office Javascript API to create your own custom visualizations. 
 
 ### PowerBI Custom Visuals
 
-You can quickly create custom visuals in Excel and Power BI.
+You can quickly create custom visuals in Excel and Power BI using the latest web technologies.
 
-![Visuals](https://powerbicdn.azureedge.net/mediahandler/blog/media/PowerBI/blog/2051210e-e17b-4320-b2bb-cb4bbf391563.jpg)
+![Visuals](https://devofficecdn.azureedge.net/media/Default/Blog%20Images/Image%203.png)
 
 > [!div class="nextstepaction"]
 > [Try it out custom visuals](http://dev.office.com)
