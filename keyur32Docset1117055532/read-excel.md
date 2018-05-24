@@ -51,7 +51,7 @@ Excel.run(function (context) {
 5. [Learn about how you can deploy your add-in to your users](https://docs.microsoft.com/en-us/office/dev/add-ins/publish/publish)
 
 
-# [C#](#tab/c#)
+# [C#](#tab/csharp)
 
 
 The following code snippet will show you how you can read a simple range by using the Excel Client Library:
