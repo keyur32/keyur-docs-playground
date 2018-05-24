@@ -3,7 +3,7 @@
 Help users understand their data by helping them create data visualizations like native Excel charts, or even use web technologies to bring in your own custom data visualizations.
 
 
-![People Graph](https://az158878.vo.msecnd.net/marketing/Partner_21474836617/Product_42949674809/Asset_e208e0a1-cffd-44fa-9a34-c673b52d84b4/App0212.png)
+![People Graph](https://devofficecdn.azureedge.net/media/Default/Blog%20Images/Image%205.png)
 
 
 # [JavaScript/TypeScript](#tab/js)
